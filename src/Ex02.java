@@ -18,6 +18,7 @@ public class Ex02 {
 			gr.setSaveMath(arrMath[i]);
 			gr.setSaveData(i + 1);
 			arrStudentID[i] = gr.getSaveData();
+			
 			arrAvg[i] = gr.getAvg();
 			arrTotal[i] = gr.getTotal();
 //			System.out.println((i+1)+"번째 학생 평균 : "+gr.getAvg());

@@ -1,8 +1,17 @@
 
 public class Calculator {
 
-	String name;
-	int id;
+	private String name;
+	private int id;
+	private int calculatedValue;
+	
+	public int getCalculatedValue() {
+		return calculatedValue;
+	}
+
+	public void setCalculatedValue(int calculatedValue) {
+		this.calculatedValue = calculatedValue;
+	}
 
 	public int add(int x, int y) {
 		return x + y;
